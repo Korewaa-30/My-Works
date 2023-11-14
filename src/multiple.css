@@ -1,0 +1,200 @@
+:root {
+	--primary-color: #5252f8;
+	--secondary-color: #f0f0f0;
+	--hero: #f9f7fe;
+	--font-1: "Playfair Display", serif;
+	--font-2: "Poppins", sans-serif;
+}
+
+.container-flex {
+	background: linear-gradient(to bottom, #f9f7fe, #018ccd, #5252f8);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	display: block;
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: var(--font-1);
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: var(--font-1);
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: var(--font-1);
+	font-weight: bold;
+	opacity: 0.7;
+}
+
+h3 .prefix {
+	font-family: var(--font-1);
+	font-weight: bold;
+	font-size: 19px;
+}
+
+p {
+	align-items: center;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.col-md-6 a {
+	font-size: 18px;
+}
+
+.project {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.link-box {
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+}
+
+.link-box a {
+	font-size: 15px;
+	border: 1px solid var(--primary-color);
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	margin: 10px 15px 10px 15px;
+	padding: 20px 15px;
+	text-decoration: none;
+}
+
+.contact {
+	background: var(--primary-color);
+	color: white;
+}
+
+.contact:hover {
+	background: var(--secondary-color);
+	color: #5d2590;
+	cursor: pointer;
+}
+
+.about {
+	background: var(--secondary-color);
+}
+
+.about:hover {
+	background: var(--primary-color);
+	cursor: pointer;
+	color: white;
+}
+
+#about-me {
+	font-size: 100px;
+}
+
+#contact-me {
+	font-size: 50px;
+}
+
+.myself {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.open {
+	font-size: 28px;
+	text-decoration: none;
+}
+
+.open:hover {
+	text-decoration: underline;
+}
+
+.hero {
+	background: var(--hero);
+	display: block;
+	padding: 10px 100px;
+	text-align: center;
+}
+
+.hero p {
+	font-size: 36px;
+	font-family: var(--font-2);
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.hero h1 {
+	font-size: 96px;
+	font-family: var(--font-1);
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.hero h2 {
+	font-family: var(--font-1);
+	font-weight: bold;
+}
+
+.hero h3 {
+	color: #272142;
+	font-size: 24px;
+	font-family: var(--font-1);
+	font-weight: normal;
+	line-height: 2;
+}
+
+.my-picture {
+	border-radius: 10px;
+	max-width: 100%;
+	max-height: 70%;
+}
+
+.describe {
+	font-size: 16px;
+	font-family: var(--font-2);
+}
+
+.work {
+	border-radius: 5px;
+	background: var(--secondary-color);
+	font-size: 18px;
+	font-family: var(--font-2);
+	padding: 15px 30px;
+	text-decoration: none;
+}
+
+.work:hover {
+	color: #272142;
+	text-decoration: none;
+}
+
+.name {
+	font-size: 64px;
+	margin-bottom: 10px;
+}
+
+.calendar {
+	border: 8px;
+	max-height: 90%;
+}
+
+.button {
+	background: #f1c8cf;
+}
+
+.tools {
+	color: rgb(239, 56, 56);
+	opacity: 1;
+}
+
+.tool {
+	max-width: 5%;
+}
